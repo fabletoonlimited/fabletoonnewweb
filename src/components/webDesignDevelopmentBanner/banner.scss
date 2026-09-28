@@ -1,0 +1,38 @@
+@keyframes manEntrance {
+  0% {
+    opacity: 0;
+    transform: translateX(1000px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-manEntrance {
+  animation: manEntrance 1.3s linear forwards;
+}
+
+//Grow Entrance Animation
+@keyframes growEntrance {
+  0% {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-growEntrance {
+  animation: growEntrance 1.3s linear forwards;
+  animation-delay: 1s;
+}
+
+// .animate-manEntrance {
+//   background: red !important;
+//   animation: manEntrance 5s linear forwards;
+// }

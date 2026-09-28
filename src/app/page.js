@@ -7,8 +7,7 @@ import FeaturedWork from "@/components/featuredWork";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons"
 import FooterNote from "@/components/footerNote"
-
-
+import Link from "next/link"
 
 const page = () => {
 
@@ -27,7 +26,7 @@ const page = () => {
       </div>
 
       {/* Featured Work */}
-      <div className="p-15">
+      <div className="p-15 mb-20">
         <h1 className="text-black font-bold text-3xl mt-5">Featured Work</h1>
         <p className="text-black mb-5">
           A few of the websites we've built for amazing businesses.
@@ -227,8 +226,11 @@ const page = () => {
               <p>Ongoing support</p>
             </div>
 
-            <button className="mt-6 text-white p-5 px-20 rounded-full bg-amber-600">Starting at N300,0000/month
-            </button>
+            <Link href="/pricing">
+              <button className="mt-6 text-white p-5 px-20 rounded-full cursor-pointer bg-amber-600">
+                Starting at N800,0000/month
+              </button>
+            </Link>
           </span> 
         </div>
       </div>

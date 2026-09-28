@@ -8,6 +8,9 @@ import {toast} from "react-toastify"
 import { useRouter } from 'next/navigation'
 import AboutBanner from "@/components/aboutBanner"
 import ServicesCards from "@/components/servicesCards"
+import WhyBusinessesChoose from"@/components/whyBusinessChoose"
+import OurProcess from"@/components/ourProcess"
+
 
 const page = () => {
     const router = useRouter();
@@ -52,21 +55,18 @@ const page = () => {
         </div>
 
         {/*Why Businesses choose Us*/}
-        <div className='p-20 md:-mt-25 -mt-25'>
-            <p className='font-black text-amber-600 text-sm'>WHAT WE DO</p>
-            <h2 className='font-black text-black text-2xl'>Why Businesses Choose Fabletoon</h2>
-        
-            <ServicesCards />
+        <div className='md:pt-12 pt-15 md:pl-8 pl-0 justify-around md:w-7xl w-80 md:ml-20 ml-22 bg-amber-50 rounded-3xl md:h-80 mb-25'>
+          <p className='font-black text-amber-600 md:pl-15 pl-5 text-sm justify-left'>WHY BUSINESSES CHOOSE FABLETOON</p>
+          <h2 className='font-black text-black md:pl-15 pl-5 text-3xl md:mb-5 mb-0'>Why Businesses Choose Fabletoon</h2>  
+          <WhyBusinessesChoose />
         </div>
 
-        {/*Our Processes*/}
-        <div className='p-20 md:-mt-25 -mt-25'>
+        {/*Our Process*/}
+        <div className='p-20 md:-mt-25 -mt-25 mb-10'>
             <p className='font-black text-amber-600 text-sm'>OUR PROCESS</p>
-            <h2 className='font-black text-black text-2xl'>Our Process</h2>
-            <p className='mb-4'>A simple clear process to get your business online and growing.
-            </p>
-            
-            <ServicesCards />
+            <h2 className='font-black text-black text-3xl'>Our Process</h2>
+            <p className='mb-6'>A simple clear process to get your business online and growing.</p>
+          <OurProcess />
         </div>
 
       {/*Services Bottom Banner*/}

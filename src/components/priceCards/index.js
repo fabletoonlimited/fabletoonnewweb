@@ -15,7 +15,7 @@ const index = () => {
         <h2 className='text-black font-black text-lg leading-5 mb-2'>Starter Website</h2>
         <p className='md:text-sm text-gray-600 mb-5'>Perfect for small businesses and statups.</p>
         
-        <h2 className='text-black font-black text-lg leading-5 mb-6'>N750,000 - N1,000,000</h2>
+        <h2 className='text-black font-black text-lg leading-5 mb-6'>N800,000 - N2,000,000</h2>
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
@@ -56,14 +56,19 @@ const index = () => {
       </div>
 
       {/* Box 2*/}
-      <div className='border-2 bg-white border-gray-100 px-7 py-10 rounded-xl max-w-100 md:max-w-auto shadow-xl animate-none hover:scale-105'>
-        
+      <div className='relative border-2 bg-white border-gray-100 px-7 py-10 rounded-xl max-w-100 md:max-w-100 shadow-xl animate-none hover:scale-105'>
+          
+        {/* Using negative positioning to break past padding and cover the 2px border */}
+        <span className='absolute -top-0.5 -right-0.5 bg-amber-500 w-24 text-white h-10 flex justify-center items-center rounded-bl-lg rounded-tr-xl font-black'>
+          <p>Best Seller</p>
+        </span>
+               
         <FontAwesomeIcon 
         icon={faTable} className=' md:text-xl text-amber-500 text-md mr-2' />
         <h2 className='text-black font-black text-lg leading-5 mb-2'>Business Website</h2>
         <p className='md:text-sm text-gray-600 mb-5'>For growing businesses that need more.</p>
         
-        <h2 className='text-black font-black text-lg leading-5 mb-6'>N1,200,000 - N15,000,000</h2>
+        <h2 className='text-black font-black text-lg leading-5 mb-6'>N2,000,000 - N10,000,000</h2>
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
@@ -111,7 +116,7 @@ const index = () => {
         <h2 className='text-black font-black text-lg leading-5 mb-2'>Business care</h2>
         <p className='md:text-sm text-gray-600 mb-5'>Ongoing support for peace of mind.</p>
         
-        <h2 className='text-black font-black text-lg leading-5 mb-6'>N200,000 - N1,000,000 / month</h2>
+        <h2 className='text-black font-black text-lg leading-5 mb-6'>N200,000 - N10,000,000 / month</h2>
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />

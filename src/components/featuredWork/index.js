@@ -5,87 +5,53 @@ import Link from 'next/link';
 
 const index = () => {
   return (
-    <div className='md:flex flex-2 py-3 md:gap-8 gap-0 md:space-y-0 space-y-10 md:overflow-hidden '>
-      
-      {/* Box 1*/}
-      <div className='border-2 border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
+    <div className='row'>
+      <div className='md:flex flex-2 py-3 md:gap-15 gap-0 md:space-y-0 space-y-10 md:overflow-hidden mb-5'>
         
-        <FontAwesomeIcon icon={faDesktop} className=' md:text-xl text-amber-500 text-md mr-2' />
-        <h2 className='text-black font-black text-lg leading-5 mb-2'>Website Design & <br />Development
-        </h2>
-        <p className='text-sm text-gray-600'>Modern, responsive websites <br />that look great and perform<br /> well on all devices.
-        </p>
-        <Link href='/'>
-          <span className='flex gap-2 text-amber-500 hover:text-gray-500 mt-3 items-center'>
-            <p>Learn more </p>
-            <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
-          </span>
-        </Link>
+        {/* Box 1*/}
+        <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-100 md:w-100  shadow-lg animate-none hover:scale-105'>
+          
+          <img src="/ABF656FF-92F1-4C60-9502-BAD9A81219F4.jpeg" />
+          <Link href='https://ejiroamostafiri.com/'>
+            <span className='flex gap-2 text-black hover:text-gray-500 mt-3 items-center'>
+              <p>View Live</p>
+              <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
+            </span>
+          </Link>
+        </div>
+
+        {/* Box 2*/}
+        <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-100 md:w-100 shadow-lg animate-none hover:scale-105'>
+          
+          <img className='w-100' 
+          src="/04118A6B-1E99-43F0-AFA6-37541A729CBF.jpeg" />
+          <Link href='https://okuper.com/'>
+            <span className='flex gap-2 text-black hover:text-gray-500 mt-3 items-center'>
+              <p>View Live</p>
+              <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
+            </span>
+          </Link>
+        </div>
+        
+        {/* Box 3*/}
+            <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-100 md:w-100 shadow-lg animate-none hover:scale-105'>
+          
+          <img 
+          className='mb-10'
+          src="/89369868-AB20-4C60-BB17-BA019E857056_4_5005_c.jpeg" />
+          <Link href='https://www.figma.com/proto/igfqTuaT2zMAlrTPVNtLZ6/Tisora-e-Commerce?page-id=0%3A1&node-id=2-2&p=f&viewport=287%2C102%2C0.26&t=6NJaP6CovMaXXjQY-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2'>
+            <span className='flex gap-2 text-black hover:text-gray-500 mt-3 items-center'>
+              <p>View Prototype</p>
+              <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
+            </span>
+          </Link>
+        </div>
       </div>
 
-      {/* Box 2*/}
-      <div className='border-2 border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
-        
-        <FontAwesomeIcon icon={faEnvelope} className=' md:text-xl text-md text-amber-500 mr-2' />
-        <h2 className='text-black font-black text-xl leading-5 mb-6'>Business Email
-        </h2>
-      <p className='text-sm text-gray-600 mb-5'>Professional email addresses <br />using your company domain<br /> (eg. you@yourcompany.com).
-        </p>
-        <Link href='/'>
-          <span className='flex gap-2 text-amber-500 hover:text-gray-500 mt-3 items-center'>
-            <p>Learn more </p>
-            <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
-          </span>
-        </Link>
-      </div>
-      
-      {/* Box 3*/}
-      <div className='border-2 border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
-        
-        <FontAwesomeIcon icon={faCloudArrowUp} className=' md:text-xl text-md text-amber-500 mr-2' />
-        <h2 className='text-black font-black text-xl leading-6 mb-1'>Hosting & <br /> Maintenance
-        </h2>
-        <p className='text-sm text-gray-600 mb-2'>Keep your website secure, <br />updated and running<br /> smoothly.
-        </p>
-        <Link href='/'>
-          <span className='flex gap-2 text-amber-500 hover:text-gray-500 mt-3 items-center'>
-            <p>Learn more </p>
-            <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
-          </span>
-        </Link>
-      </div>
-      
-      {/* Box 4*/}
-      <div className='border-2 border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
-        
-        <FontAwesomeIcon icon={faLocationPin} className=' md:text-xl text-md text-amber-500 mr-2' /> 
-        <h2 className='text-black font-black text-xl leading-6 mb-1'>Google Business <br />Profile
-        </h2>
-        <p className='text-sm text-gray-600 mb-2'>Help customers find your <br />business on Google Search<br /> and Maps.
-        </p>
-        <Link href='/'>
-          <span className='flex gap-2 text-amber-500 hover:text-gray-500 mt-3 items-center'>
-            <p>Learn more </p>
-            <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
-          </span>
-        </Link>
-      </div>
-      
-      {/* Box 5*/}
-      <div className='border-2 border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
-        
-        <FontAwesomeIcon icon={faBullhorn} className=' md:text-xl text-md text-amber-500 mr-2' />
-        <h2 className='text-black font-black text-xl leading-5 mb-6'>Digital Marketing
-        </h2>
-        <p className='text-sm text-gray-600 mb-5'>Grow your reach with SEO <br />social media and online<br /> advertising.
-        </p>
-        <Link href='/'>
-          <span className='flex gap-2 text-amber-500 hover:text-gray-500 mt-3 items-center'>
-            <p>Learn more </p>
-            <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
-          </span>
-        </Link>
-      </div>
+
+      <Link href="/portfolio">
+        <p className='text-amber-600 hover:text-black flex justify-end '>View all</p>
+      </Link>
     </div>
   )
 }

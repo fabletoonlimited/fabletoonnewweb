@@ -87,18 +87,17 @@ const Page = () => {
       <ToastContainer />
 
       <Nav />
-
       <ContactBanner />
 
       {/* Page Heading */}
       <section className="px-5 sm:px-8 md:px-12 lg:px-20 xl:px-30">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold my-8 md:my-12">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold my-8 md:my-0">
           Tell Us About Your Request
         </h1>
       </section>
 
       {/* Contact Section */}
-      <section className="px-5 sm:px-8 md:px-12 lg:px-20 xl:px-30 pb-20">
+      <section className="px-5 sm:px-8 md:px-12 lg:px-20 xl:px-30 pb-50">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 xl:gap-28 max-w-7xl mx-auto">
 
           {/* FORM */}
@@ -192,7 +191,6 @@ const Page = () => {
 
             </div>
           </div>
-
         </div>
       </section>
 
