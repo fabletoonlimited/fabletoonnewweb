@@ -108,14 +108,14 @@ const Page = () => {
 
       <Nav />
 
-      <h1 className="md:px-30 px-10 md:text-4xl text-3xl font-bold my-10">
+      <h1 className="md:px-30 px-10 md:text-4xl text-3xl font-bold text-black my-10">
         Tell Us About Your Project
       </h1>
 
       <div className="md:w-88 w-50 md:px-30 px-10">
         <form onSubmit={handleSubmit}>
           {/* Full Name */}
-          <p className="font-bold">Full Name:</p>
+          <p className="font-bold text-black">Full Name:</p>
 
           <input
             type="text"
@@ -123,11 +123,11 @@ const Page = () => {
             value={isQuote.fullName}
             onChange={handleChange}
             placeholder="Full Name"
-            className="border-2 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Email */}
-          <p className="font-bold">Email:</p>
+          <p className="font-bold text-black">Email:</p>
 
           <input
             type="email"
@@ -135,11 +135,11 @@ const Page = () => {
             value={isQuote.email}
             onChange={handleChange}
             placeholder="email@gmail.com"
-            className="border-2 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Phone */}
-          <p className="font-bold">Phone:</p>
+          <p className="font-bold text black">Phone:</p>
 
           <input
             type="tel"
@@ -147,11 +147,11 @@ const Page = () => {
             value={isQuote.phone}
             onChange={handleChange}
             placeholder="Phone"
-            className="border-2 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Select Service */}
-          <p className="font-bold w-100">Select service:</p>
+          <p className="font-bold w-100 text-black">Select service:</p>
 
           <select
             name="selectService"
@@ -189,18 +189,18 @@ const Page = () => {
           </select>
 
           {/* Comment */}
-          <p className="font-bold">Comment:</p>
+          <p className="font-bold text-black">Comment:</p>
 
           <textarea
             name="comment"
             value={isQuote.comment}
             onChange={handleChange}
             placeholder="Describe what you need. Your goals and specific requirements."
-            className="border-2 rounded-2xl h-30 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 rounded-2xl h-30 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Budget */}
-          <p className="font-bold">Budget:</p>
+          <p className="font-bold text-black">Budget:</p>
 
           <input
             type="text"
@@ -208,7 +208,7 @@ const Page = () => {
             value={isQuote.budget}
             onChange={handleChange}
             placeholder="Estimated budget"
-            className="border-2 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Submit */}
