@@ -48,7 +48,7 @@ return (
         </div>
         
         {/* Services */}
-        <div className='p-25'>
+        <div className='p-10 md:px-10 px-8'>
             <ServiceCards />
         </div>
     </div>

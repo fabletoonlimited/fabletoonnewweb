@@ -45,7 +45,7 @@ return (
         </div>
         
         {/* prices */}
-        <div className='md:p-25 md:pr-75 pr-30 md:-mt-35 mt-10 items-center justify-items-center mb-20'>
+        <div className='md:p-25 md:pr-75 pr-33 md:-mt-35 mt-10 items-center justify-items-center mb-20'>
             <PriceCards />
         </div>
     </div>

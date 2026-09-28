@@ -16,10 +16,10 @@ const page = () => {
         <Nav />
         <PricingBanner />
 
-        <div className='bg-amber-50 md:gap-10 gap-5 md:flex row h-auto md:p-20 p-10 md:w-250 w-80 md:ml-45 ml-10 mb-40 rounded-xl items-center justify-items-center'>
+        <div className='bg-amber-50 md:gap-10 gap-5 md:flex row h-auto md:p-20 p-10 shadow-2xl md:w-250 w-80 md:ml-45 ml-10 mb-40 rounded-xl items-center justify-items-center'>
           <FontAwesomeIcon icon={faBuilding} className='text-amber-600 w-5 md:text-2xl text-md mr-2' />
           <div>
-            <p className='font-bold text-black'>Need a custom solution?</p>
+            <p className='font-bold text-black '>Need a custom solution?</p>
             <p className='text-black'>Have a unique project or need additional services? Let's talk about 
             what you need and create a plan that works for you.
             </p>
