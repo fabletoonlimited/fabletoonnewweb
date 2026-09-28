@@ -29,7 +29,7 @@ const page = () => {
       };
 
   return (
-    <div>
+    <div className="bg-white">
       <Nav />
       <DigitalMarketing />
 

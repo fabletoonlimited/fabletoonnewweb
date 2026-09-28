@@ -11,12 +11,12 @@ import Link from 'next/link';
 
 const page = () => {
   return (
-    <div className='w-screen h-auto'>
+    <div className='w-screen h-auto bg-gray-100'>
         <ToastContainer />
         <Nav />
         <PricingBanner />
 
-        <div className='bg-amber-50 md:gap-10 gap-5 md:flex row h-auto md:p-20 p-10 md:w-250 w-80 md:ml-45 ml-20 mb-40 rounded-xl items-center justify-items-center'>
+        <div className='bg-amber-50 md:gap-10 gap-5 md:flex row h-auto md:p-20 p-10 md:w-250 w-80 md:ml-45 ml-10 mb-40 rounded-xl items-center justify-items-center'>
           <FontAwesomeIcon icon={faBuilding} className='text-amber-600 w-5 md:text-2xl text-md mr-2' />
           <div>
             <p className='font-bold'>Need a custom solution?</p>

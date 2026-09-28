@@ -20,14 +20,14 @@ const page = () => {
     };
 
   return (
-    <div className='page bg-white h-auto w-screen'>
+    <div className='page bg-gray-100 h-auto w-screen'>
       <ToastContainer />
       
       <Nav />
       <ServiceBanner />
 
       {/*Services Bottom Banner*/}
-      <div className='md:flex md:h-80 h-80 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-gray-100 gap-60 mb-20 rounded-xl'>
+      <div className='md:flex md:h-80 h-80 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-20 rounded-xl'>
         <img src="/laptop.png" 
         className='md:flex hidden h-100 -mt-20'/>
         <div>

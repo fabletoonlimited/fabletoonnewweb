@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 const index = () => {
   return (
-    <div className='md:flex flex-2 py-3 md:gap-8 gap-0 md:space-y-0 space-y-10 md:overflow-hidden '>
+    <div className='md:flex row py-3 md:gap-8 gap-0 md:space-y-0 space-y-10 md:overflow-hidden'>
       
       {/* Box 1*/}
-      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
+      <div className='md:border-2 bg-white border-gray-100 px-5 py-5 rounded-xl w-80 md:w-100 ml-0 shadow-lg animate-none hover:scale-105'>
         
         <FontAwesomeIcon 
         icon={faDesktop} className=' md:text-xl text-amber-500 text-md mr-2' />
@@ -25,7 +25,7 @@ const index = () => {
       </div>
 
       {/* Box 2*/}
-      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
+      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl w-80 md:w-100 shadow-lg animate-none hover:scale-105'>
         
         <FontAwesomeIcon icon={faEnvelope} className=' md:text-xl text-md text-amber-500 mr-2' />
         <h2 className='text-black font-black text-xl leading-5 mb-6'>Business Email
@@ -41,7 +41,7 @@ const index = () => {
       </div>
       
       {/* Box 3*/}
-      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
+      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl w-80 md:w-100 shadow-lg animate-none hover:scale-105'>
         
         <FontAwesomeIcon icon={faCloudArrowUp} className=' md:text-xl text-md text-amber-500 mr-2' />
         <h2 className='text-black font-black text-xl leading-6 mb-1'>Hosting & <br /> Maintenance
@@ -57,7 +57,7 @@ const index = () => {
       </div>
       
       {/* Box 4*/}
-      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
+      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl w-80 md:w-100 shadow-lg animate-none hover:scale-105'>
         
         <FontAwesomeIcon icon={faLocationPin} className=' md:text-xl text-md text-amber-500 mr-2' /> 
         <h2 className='text-black font-black text-xl leading-6 mb-1'>Google Business <br />Profile
@@ -73,7 +73,7 @@ const index = () => {
       </div>
       
       {/* Box 5*/}
-      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl w-auto max-w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
+      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl w-80 md:w-100 md:max-w-auto shadow-lg animate-none hover:scale-105'>
         
         <FontAwesomeIcon icon={faBullhorn} className=' md:text-xl text-md text-amber-500 mr-2' />
         <h2 className='text-black font-black text-xl leading-5 mb-6'>Digital Marketing

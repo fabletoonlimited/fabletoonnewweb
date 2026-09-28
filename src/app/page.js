@@ -17,7 +17,7 @@ const page = () => {
       <Banner />
 
       {/* Services */}
-      <div className="p-15">
+      <div className="p-10">
         <h1 className="text-black font-bold text-3xl mt-5">Our Services</h1>
         <p className="text-black mb-5">
           Everything your business needs to build and grow online.
@@ -26,7 +26,7 @@ const page = () => {
       </div>
 
       {/* Featured Work */}
-      <div className="p-15 mb-20">
+      <div className="p-10 mb-20">
         <h1 className="text-black font-bold text-3xl mt-5">Featured Work</h1>
         <p className="text-black mb-5">
           A few of the websites we've built for amazing businesses.
@@ -182,23 +182,31 @@ const page = () => {
         <div className="w-auto h-auto md:px-6 px-12 py-10 border-gray-300 border-2 bg-white rounded-2xl md:mt-30 mt-10 md:flex col gap-10">
           <span className="items-center md:mt-0 mt-0 py-10">
             <p className="font-bold text-black text-md mb-3">Don't just build your website.<br />Let us take care of it.</p>
-              <p>Take the stress out of your project <br />while our experts handle everything you need:</p>
+              <p className="text-black">Take the stress out of your project <br />while our experts handle everything you need:</p>
                 
               <div className="flex mt-3">
                 <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-                  <p>Hosting & domain management</p>
+                  <p className="text-black">Hosting & domain management</p>
               </div>
               <div className="flex mt-3">
                 <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-                  <p>Hosting & domain management</p>
+                  <p className="text-black">Security & Backups</p>
               </div>
               <div className="flex mt-3">
                 <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-                <p>Hosting & domain management</p>
+                <p className="text-black">Software updates</p>
               </div>
               <div className="flex mt-3">
                 <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-                <p>Hosting & domain management</p>
+                <p className="text-black">Ongoing support</p>
+              </div>
+              <div className="flex mt-3">
+                <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
+                <p className="text-black">Google Business Profile</p>
+              </div>
+              <div className="flex mt-3">
+                <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
+                <p className="text-black">SEO & Digital Marketing</p>
               </div>
           </span> 
 
@@ -207,23 +215,23 @@ const page = () => {
           
           <span className="items-center md:mt-0 mt-0 py-10 w-auto">
             <p className="font-bold text-black text-md mb-3">Don't just build your website.<br />Let us take care of it.</p>
-            <p>Take the stress out of your project <br />while our experts handle everything you need:</p>
+            <p className="text-black">Take the stress out of your project <br />while our experts handle everything you need:</p>
                 
             <div className="flex mt-3">
               <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-                <p>Website Design to advanced services</p>
+                <p className="text-black">Website Design to advanced services</p>
             </div>
             <div className="flex mt-3">
               <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-                <p>Strategic solutions to increased sales mobile and user experience</p>
+                <p className="text-black">Strategic solutions to increased sales mobile and user experience</p>
             </div>
             <div className="flex mt-3">
               <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-              <p>Ongoing updates & Development</p>
+              <p className="text-black">Ongoing updates & Development</p>
             </div>
             <div className="flex mt-3">
               <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-              <p>Ongoing support</p>
+              <p className="text-black">Ongoing support</p>
             </div>
 
             <Link href="/pricing">

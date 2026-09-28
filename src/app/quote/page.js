@@ -103,7 +103,7 @@ const Page = () => {
   };
 
   return (
-    <div className="w-screen h-auto">
+    <div className="w-screen h-auto bg-gray-100">
       <ToastContainer />
 
       <Nav />
@@ -123,7 +123,7 @@ const Page = () => {
             value={isQuote.fullName}
             onChange={handleChange}
             placeholder="Full Name"
-            className="border-2 border-gray-200 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Email */}
@@ -135,7 +135,7 @@ const Page = () => {
             value={isQuote.email}
             onChange={handleChange}
             placeholder="email@gmail.com"
-            className="border-2 border-gray-200 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Phone */}
@@ -147,7 +147,7 @@ const Page = () => {
             value={isQuote.phone}
             onChange={handleChange}
             placeholder="Phone"
-            className="border-2 border-gray-200 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Select Service */}
@@ -157,7 +157,7 @@ const Page = () => {
             name="selectService"
             value={isQuote.selectService}
             onChange={handleChange}
-            className="border-2 border-gray-200 px-3 text-gray-500 md:w-150 w-88 py-2 mb-10"
+            className="border-2 border-gray-400 px-3 text-gray-500 md:w-150 w-88 py-2 mb-10"
           >
             <option value="">
               Select a Service you're interested in
@@ -196,7 +196,7 @@ const Page = () => {
             value={isQuote.comment}
             onChange={handleChange}
             placeholder="Describe what you need. Your goals and specific requirements."
-            className="border-2 rounded-2xl h-30 border-gray-200 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 rounded-2xl h-30 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Budget */}
@@ -208,7 +208,7 @@ const Page = () => {
             value={isQuote.budget}
             onChange={handleChange}
             placeholder="Estimated budget"
-            className="border-2 border-gray-200 px-4 py-2 md:w-150 w-88 mb-7"
+            className="border-2 border-gray-400 px-4 py-2 md:w-150 w-88 mb-7"
           />
 
           {/* Submit */}

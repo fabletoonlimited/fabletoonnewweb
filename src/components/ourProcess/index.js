@@ -19,7 +19,7 @@ const index = () => {
       <div className='md:w-0.5 w-50 md:h-45 h-0.5 bg-gray-300 md:mt-10 mt-3 md:gap-y-0 md:mb-3 mb-3'></div>
 
       {/* Box 2*/}
-      <div className='md:px-5 px-0  rounded-xl max-w-100 md:max-w-auto '>
+      <div className='md:px-5 px-0 rounded-xl max-w-100 md:max-w-auto '>
         <FontAwesomeIcon 
         icon={faCheckDouble} className='text-3xl text-amber-500 text-md mr-2 mb-2' />
         <h2 className='text-black font-black text-sm leading-5 mb-2'>We Plan Your Solution</h2>

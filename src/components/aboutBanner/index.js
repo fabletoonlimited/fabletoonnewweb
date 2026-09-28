@@ -21,16 +21,16 @@ const index = () => {
     }, []);
 
 return (
-    <div className='banner w-full md:overflow-hidden h-150'>
+    <div className='banner w-screen md:overflow-hidden md:h-150 h-150'>
         
         {/* Your Digital Partner*/}    
         <div className="absolute md:right-20 right-57 pointer-events-none z-50 md:-mt-4 mt-0">   
-            <div className='-mt-40 md:ml-0 ml-10 md:pt-60 pt-50 pr-0 md:pr-240'>
-                <p className='md:text-md text-sm md:mr-10 mr-0 md:px-0 md:justify-left font-bold text-white z-60'>
+            <div className='-mt-40 md:ml-0 ml-15 md:pt-60 pt-55 pr-0 md:pr-240'>
+                <p className='md:text-md mb-2 text-sm md:ml-10 mr-0 md:px-0 md:justify-left font-bold text-white z-60'>
                     About
                 </p>
-                <h1 className='md:text-2xl text-lg md:mr-10 mr-0 md:justify-left font-bold text-white z-60'>
-                    Digital Solutions That<br /> Help  Businessses Grow
+                <h1 className='md:text-2xl text-md md:ml-10 md:justify-left font-bold text-white z-60'>
+                    Digital Solutions That Help Businessses Grow
                 </h1>
             </div>
 
@@ -45,10 +45,10 @@ return (
 
         <div className='relative banner-img&Text items-center md:items-center md:justify-center justify-center md:flex w-screen md:h-50 h-100'>
             <img src="/aboutBanner.jpeg"
-                className='object-cover w-auto pb-0'    
+                className='object-cover w-screen md:h-202 h-100'    
             />
         
-            <div className="absolute inset-0 pointer-events-none bg-black/50 md:h-126 h-70"></div>
+            <div className="absolute inset-0 pointer-events-none bg-black/50 md:h-126 h-100"></div>
         </div>
 
 

@@ -23,7 +23,7 @@ const index = () => {
 return (
     <div className='banner w-full md:overflow-hidden h-auto relative'> 
         {/* Your Digital Partner*/}    
-        <div className="absolute md:right-20 right-65 z-50 md:mt-3 mt-4">
+        <div className="absolute md:right-20 right-10 z-50 md:mt-3 mt-4">
             <span className='relative right-0 md:text-8xl md:flex block text-black font-black leading-8 mt-115' style={{fontSize: 30}}>Your<br />Digital Partner<br /> in Lagos.</span>
                 
           <hr className="md:text-amber-600 text-white md:w-40 w-50 border-2 rounded-2xl mt-2 -mx-0.5" />
@@ -39,7 +39,7 @@ return (
                 
                 <span className='animate-growEntrance relative right-0 md:text-8xl md:flex hidden text-black font-black md:leading-40 mt-20 mb-2' style={{fontSize: 200}}>Needs <br />Online</span>
                 
-                <span className='animate-growEntrance md:text-2xl md:hidden flex text-black font-black md:leading-20 leading-25 mt-15 ml-3 mb-2' style={{fontSize: 130}}>Needs <br /> Online</span>
+                <span className='animate-growEntrance md:text-2xl md:hidden flex text-black font-black md:leading-20 leading-20 mt-15 ml-3 mb-2' style={{fontSize: 100}}>Needs <br /> Online</span>
                 
                 {/*Body */}
                 <p className='md:text-md text-md md:pl-0 pl-4 text-black font-medium justify-full md:mr-175 mr-0 mb-0 md:mt-0 mt-2'>From professional websites to business emails and ongions support, we provide the digital solutions that help your business look credible, reach more customers and grow.

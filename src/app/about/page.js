@@ -22,14 +22,14 @@ const page = () => {
         }, 2000)
       };
   return (
-    <div className='w-screen h-auto'>
+    <div className='w-screen h-auto bg-gray-100'>
         <ToastContainer />
         <Nav />
         <AboutBanner />
 
         {/*Body*/}
-        <div className='md:-mt-30 -mt-80 md:text-left text-justify p-20'>
-            <p>We help businesses build online presence with
+        <div className='md:-mt-20 -mt-40 md:text-left text-justify p-10 mb-10'>
+          <p className='text-black'>We help businesses build online presence with
             professional websites, business email, reliable hosting,
             and ongoing support.
             
@@ -40,22 +40,22 @@ const page = () => {
             Whether you're starting a new business, upgrading an existing
             website, or simply need reliable technical support, we make the
             process simple and straightforward.
-            </p>
+          </p>
         </div>
 
         {/*What We Do*/}
-        <div className='p-20 md:-mt-25 -mt-25'>
+        <div className='p-10 md:-mt-10 -mt-15 mb-20'>
           <p className='font-black text-amber-600 text-sm'>WHAT WE DO</p>
             <h2 className='font-black text-black text-2xl'>What We Do</h2>
-            <p className='mb-4'>We offer a range of digital services to help your businesses look professional,
+              <p className='mb-4'>We offer a range of digital services to help your businesses look professional,
                 get found online, and stay secure.
-            </p>
-            
-            <ServicesCards />
+              </p>
+
+          <ServicesCards />
         </div>
 
         {/*Why Businesses choose Us*/}
-        <div className='md:pt-12 pt-15 md:pl-8 pl-0 justify-around md:w-7xl w-80 md:ml-20 ml-22 bg-amber-50 rounded-3xl md:h-80 mb-25'>
+        <div className='md:pt-12 pt-15 md:pl-8 pl-0 justify-around md:w-7xl w-80 md:ml-20 ml-10 bg-amber-50 rounded-3xl md:h-80 mb-25'>
           <p className='font-black text-amber-600 md:pl-15 pl-5 text-sm justify-left'>WHY BUSINESSES CHOOSE FABLETOON</p>
           <h2 className='font-black text-black md:pl-15 pl-5 text-3xl md:mb-5 mb-0'>Why Businesses Choose Fabletoon</h2>  
           <WhyBusinessesChoose />
@@ -70,17 +70,18 @@ const page = () => {
         </div>
 
       {/*Services Bottom Banner*/}
-      <div className='md:flex md:h-80 h-80 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-gray-100 gap-60 mb-20 rounded-xl'>
+      <div className='md:flex md:h-80 h-100 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-20 rounded-xl'>
         <img src="/laptop.png" 
-        className='md:flex hidden h-100 -mt-20'/>
+        className='md:flex hidden h-100 -mt-20'
+      />
         <div>
-          <h4 className='font-bold text-black mt-10'>Not sure which service is right for you?</h4>
-            <p>Book a free consultation and we'll recommend the best solutions for your business needs.</p>
+          <h4 className='font-bold text-xl text-black mt-10 mb-4'>Not sure which service is right for you?</h4>
+            <p className='text-black'>Book a free consultation and we'll recommend the best solutions for your business needs.</p>
       
             <button 
-            type='button'
-            onClick={handleSubmit}
-            className="mt-6 text-white p-5 px-20 rounded-xl bg-amber-600 hover:bg-amber-400 cursor-pointer">
+              type='button'
+              onClick={handleSubmit}
+              className="mt-6 text-white font-black p-5 px-20 rounded-full bg-amber-600 hover:bg-amber-400 cursor-pointer">
               Book a Free Consultation
             </button>
         </div>

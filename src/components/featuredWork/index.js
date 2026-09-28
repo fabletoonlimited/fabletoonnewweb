@@ -9,7 +9,7 @@ const index = () => {
       <div className='md:flex flex-2 py-3 md:gap-15 gap-0 md:space-y-0 space-y-10 md:overflow-hidden mb-5'>
         
         {/* Box 1*/}
-        <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-100 md:w-100  shadow-lg animate-none hover:scale-105'>
+        <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-80 md:w-100  shadow-lg animate-none hover:scale-105'>
           
           <img src="/ABF656FF-92F1-4C60-9502-BAD9A81219F4.jpeg" />
           <Link href='https://ejiroamostafiri.com/'>
@@ -21,7 +21,7 @@ const index = () => {
         </div>
 
         {/* Box 2*/}
-        <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-100 md:w-100 shadow-lg animate-none hover:scale-105'>
+        <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-80 md:w-100 shadow-lg animate-none hover:scale-105'>
           
           <img className='w-100' 
           src="/04118A6B-1E99-43F0-AFA6-37541A729CBF.jpeg" />
@@ -34,7 +34,7 @@ const index = () => {
         </div>
         
         {/* Box 3*/}
-            <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-100 md:w-100 shadow-lg animate-none hover:scale-105'>
+        <div className='border-2 border-gray-100 bg-white px-5 py-5 rounded-xl w-80 md:w-100 shadow-lg animate-none hover:scale-105'>
           
           <img 
           className='mb-10'

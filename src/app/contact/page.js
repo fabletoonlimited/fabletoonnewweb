@@ -83,7 +83,7 @@ const Page = () => {
   };
 
   return (
-    <div className="w-full min-h-screen overflow-x-hidden">
+    <div className="w-full min-h-screen overflow-x-hidden bg-gray-100">
       <ToastContainer />
 
       <Nav />
@@ -116,7 +116,7 @@ const Page = () => {
                   value={isContact.fullName}
                   onChange={handleChange}
                   placeholder="Full Name"
-                  className="w-full border-2 border-gray-200 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                  className="w-full border-2 border-gray-400 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
                 />
               </div>
 
@@ -132,7 +132,7 @@ const Page = () => {
                   value={isContact.email}
                   onChange={handleChange}
                   placeholder="email@gmail.com"
-                  className="w-full border-2 border-gray-200 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                  className="w-full border-2 border-gray-400 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
                 />
               </div>
 
@@ -148,7 +148,7 @@ const Page = () => {
                   value={isContact.phone}
                   onChange={handleChange}
                   placeholder="Phone"
-                  className="w-full border-2 border-gray-200 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                  className="w-full border-2 border-gray-400 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
                 />
               </div>
 
@@ -164,7 +164,7 @@ const Page = () => {
                   onChange={handleChange}
                   placeholder="Send our support team a message."
                   rows={6}
-                  className="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 outline-none resize-none focus:border-purple-600 transition"
+                  className="w-full border-2 border-gray-400 rounded-2xl px-4 py-3 outline-none resize-none focus:border-purple-600 transition"
                 />
               </div>
 
