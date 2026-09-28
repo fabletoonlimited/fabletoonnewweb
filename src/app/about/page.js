@@ -23,12 +23,12 @@ const page = () => {
       };
   return (
     <div className='w-screen h-auto bg-gray-100'>
-        <ToastContainer />
-        <Nav />
-        <AboutBanner />
+      <ToastContainer />
+      <Nav />
+      <AboutBanner />
 
         {/*Body*/}
-        <div className='md:-mt-20 -mt-40 md:text-left text-justify p-10 mb-10'>
+        <div className='md:-mt-20 mt-5 md:text-left text-justify p-10 mb-10'>
           <p className='text-black'>We help businesses build online presence with
             professional websites, business email, reliable hosting,
             and ongoing support.
@@ -47,7 +47,7 @@ const page = () => {
         <div className='p-10 md:-mt-10 -mt-15 mb-20'>
           <p className='font-black text-amber-600 text-sm'>WHAT WE DO</p>
             <h2 className='font-black text-black text-2xl'>What We Do</h2>
-              <p className='mb-4'>We offer a range of digital services to help your businesses look professional,
+              <p className='mb-4 text-black'>We offer a range of digital services to help your businesses look professional,
                 get found online, and stay secure.
               </p>
 
@@ -71,7 +71,7 @@ const page = () => {
         </div>
 
       {/*Services Bottom Banner*/}
-      <div className='md:flex md:h-80 h-100 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-20 rounded-xl'>
+      <div className='md:flex md:h-80 h-100 shadow-2xl block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-20 rounded-xl'>
         <img src="/laptop.png" 
         className='md:flex hidden h-100 -mt-20'
       />
@@ -82,7 +82,7 @@ const page = () => {
             <button 
               type='button'
               onClick={handleSubmit}
-              className="mt-6 text-white font-black p-5 px-20 rounded-full bg-amber-600 hover:bg-amber-400 cursor-pointer">
+              className="mt-6 text-white text-xl font-black p-5 px-10 rounded-full bg-amber-600 hover:bg-amber-400 cursor-pointer">
               Book a Free Consultation
             </button>
         </div>

@@ -20,7 +20,7 @@ const page = () => {
     };
 
   return (
-    <div className='page bg-gray-100 h-auto w-screen'>
+    <div className='bg-gray-100 h-auto w-screen'>
       <ToastContainer />
       
       <Nav />
@@ -32,7 +32,7 @@ const page = () => {
         className='md:flex hidden h-100 -mt-20'/>
         <div>
           <h4 className='font-bold text-black mt-10 text-xl mb-4'>Not sure which service is right for you?</h4>
-            <p>Book a free consultation and we'll recommend the best solutions for your business needs.</p>
+            <p className='text-black'>Book a free consultation and we'll recommend the best solutions for your business needs.</p>
       
             <button 
             type='button'

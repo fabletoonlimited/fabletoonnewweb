@@ -21,20 +21,20 @@ const index = () => {
     }, []);
 
 return (
-    <div className='banner w-screen md:overflow-hidden md:h-150 h-150'>
+    <div className='banner w-full md:overflow-hidden relative md:h-150 h-auto'>
         
         {/* Your Digital Partner*/}    
         <div className="absolute md:right-20 right-57 pointer-events-none z-50 md:-mt-4 mt-0">   
-            <div className='-mt-40 md:ml-0 ml-15 md:pt-60 pt-55 pr-0 md:pr-240'>
-                <p className='md:text-md mb-2 text-sm md:ml-10 mr-0 md:px-0 md:justify-left font-bold text-white z-60'>
+            <div className='-mt-40 md:ml-0 ml-15 md:pt-60 pt-55 md:mr-0 -mr-60 md:pr-240 w-100'>
+                <p className='md:text-md mb-2 text-sm md:ml-0 ml-10 md:px-0 md:justify-left font-bold text-white z-60'>
                     About
                 </p>
-                <h1 className='md:text-2xl text-md md:ml-10 md:justify-left font-bold text-white z-60'>
+                <h1 className='md:text-2xl text-xl md:w-100 w-60 text-md md:ml-0 ml-10 md:justify-left font-bold text-white z-60'>
                     Digital Solutions That Help Businessses Grow
                 </h1>
             </div>
 
-            <div className='md:pl-270 pl-10 md:-mt-15 -mt-20 relative md:left-10 left-50'>
+            <div className='md:pl-270 pl-10 md:-mt-15 mt-15 relative md:left-10 left-50'>
                 <span className=' md:text-8xl md:flex block text-white font-black leading-6 md:mt-80 mt-40' style={{fontSize: 20}}>
                     We are always.<br />available to serve you.
                 </span>      
