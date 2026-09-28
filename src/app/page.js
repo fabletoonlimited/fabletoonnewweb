@@ -164,7 +164,7 @@ const page = () => {
       {/*Testimonials*/}
       <div className="md:flex col mb-30 w-screen gap-10 md:px-25 px-5 items-center justify-items-center">
         <div className="QuoteBox md:w-130 w-80 md:h-65 bg-gray-900 rounded-2xl items-center p-10 pt-15 mt-15">
-          <p className="text-white mb-8">Working with Fabletoon was a great experience. They understood our vision and delivered a website that perfectly represent our brand. The support has been
+          <p className="text-white mb-8">Working with Fabletoon was a great experience. They understood our vision and delivered a website that perfectly represent our brand. The support has been incredible.
           </p>
 
           <div className="flex gap-3">

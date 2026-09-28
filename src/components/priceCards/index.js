@@ -19,33 +19,33 @@ const index = () => {
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>5-page website</p>
+          <p className='text-black'>5-page website</p>
         </div>
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Whatsapp button</p>
+          <p className='text-black'>Whatsapp button</p>
         </div>
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Contact form</p>
+          <p className='text-black'>Contact form</p>
         </div>
 
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>SSL certificate</p>
+          <p className='text-black'>SSL certificate</p>
         </div>
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Basic SEO</p>
+          <p className='text-black'>Basic SEO</p>
         </div>
 
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Hosting setup</p>
+          <p className='text-black'>Hosting setup</p>
         </div>
 
         <Link href='/contact'>
@@ -59,8 +59,8 @@ const index = () => {
       <div className='relative border-2 bg-white border-gray-100 px-7 py-10 rounded-xl max-w-100 md:max-w-100 shadow-xl animate-none hover:scale-105'>
           
         {/* Using negative positioning to break past padding and cover the 2px border */}
-        <span className='absolute -top-0.5 -right-0.5 bg-amber-500 w-24 text-white h-10 flex justify-center items-center rounded-bl-lg rounded-tr-xl font-black'>
-          <p>Best Seller</p>
+        <span className='absolute -top-0.5 -right-0.5 bg-amber-500 w-24 h-10 flex justify-center items-center rounded-bl-lg rounded-tr-xl font-black'>
+          <p className='text-white'>Best Seller</p>
         </span>
                
         <FontAwesomeIcon 
@@ -72,33 +72,33 @@ const index = () => {
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>8-12 pages</p>
+          <p className='text-black'>8-12 pages</p>
         </div>
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Professional copy assistant</p>
+          <p className='text-black'>Professional copy assistant</p>
         </div>
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Google Business Profile setup</p>
+          <p className='text-black'>Google Business Profile setup</p>
         </div>
 
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>SSL certificate</p>
+          <p className='text-black'>SSL certificate</p>
         </div>
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p> Multiple business emails</p>
+          <p className='text-black'> Multiple business emails</p>
         </div>
 
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Hosting setup</p>
+          <p className='text-black'>Hosting setup</p>
         </div>
 
         <Link href='/contact'>
@@ -120,33 +120,33 @@ const index = () => {
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Hosting & Domain Management</p>
+          <p className='text-black'>Hosting & Domain Management</p>
         </div>
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Website updates</p>
+          <p className='text-black'>Website updates</p>
         </div>
         
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Backup & security monitoring</p>
+          <p className='text-black'>Backup & security monitoring</p>
         </div>
 
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Business emaail support</p>
+          <p className='text-black'>Business emaail support</p>
         </div>
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Technical support</p>
+          <p className='text-black'>Technical support</p>
         </div>
 
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p>Monthly reports</p>
+          <p className='text-black'>Monthly reports</p>
         </div>
 
         <Link href='/contact'>
