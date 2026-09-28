@@ -103,124 +103,147 @@ const Page = () => {
   };
 
   return (
-    <div className="w-screen h-auto bg-gray-100">
+    <div className="w-full min-h-screen overflow-x-hidden bg-gray-100">
       <ToastContainer />
 
       <Nav />
 
-      <h1 className="md:px-30 px-10 md:text-4xl text-3xl font-bold text-black my-10">
-        Tell Us About Your Project
-      </h1>
+      {/* Page Heading */}
+      <section className="px-5 sm:px-8 md:px-12 lg:px-20 xl:px-30">
+        <h1 className="md:text-4xl text-3xl font-bold text-black my-10">
+          Tell Us About Your Project
+        </h1>
+      </section>
 
-      <div className="md:w-88 w-50 md:px-30 px-10">
-        <form onSubmit={handleSubmit}>
-          {/* Full Name */}
-          <p className="font-bold text-black">Full Name:</p>
+      <section className="px-5 sm:px-8 md:px-12 lg:px-20 xl:px-30 pb-50">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 xl:gap-28 max-w-7xl mx-auto">          
+          {/*Form */}
+          <div className="w-full lg:w-1/2">
+            <form onSubmit={handleSubmit} className="w-full">
 
-          <input
-            type="text"
-            name="fullName"
-            value={isQuote.fullName}
-            onChange={handleChange}
-            placeholder="Full Name"
-            className="border-2 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
-          />
+              {/* Full Name */}
+              <div className="mb-6">
 
-          {/* Email */}
-          <p className="font-bold text-black">Email:</p>
+                <p className="font-bold text-black">Full Name:</p>
 
-          <input
-            type="email"
-            name="email"
-            value={isQuote.email}
-            onChange={handleChange}
-            placeholder="email@gmail.com"
-            className="border-2 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
-          />
+                <input
+                  type="text"
+                  name="fullName"
+                  value={isQuote.fullName}
+                  onChange={handleChange}
+                  placeholder="Full Name"
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                />
+              </div>
 
-          {/* Phone */}
-          <p className="font-bold text black">Phone:</p>
+              {/* Email */}
+              <div className="mb-6">
+                <p className="font-bold text-black">Email:</p>
 
-          <input
-            type="tel"
-            name="phone"
-            value={isQuote.phone}
-            onChange={handleChange}
-            placeholder="Phone"
-            className="border-2 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
-          />
+                <input
+                  type="email"
+                  name="email"
+                  value={isQuote.email}
+                  onChange={handleChange}
+                  placeholder="email@gmail.com"
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                />
+              </div>
 
-          {/* Select Service */}
-          <p className="font-bold w-100 text-black">Select service:</p>
+              {/* Phone */}
+              <div className="mb-6">
+                <p className="font-bold text black">Phone:</p>
 
-          <select
-            name="selectService"
-            value={isQuote.selectService}
-            onChange={handleChange}
-            className="border-2 border-gray-400 px-3 text-gray-500 md:w-150 w-88 py-2 mb-10"
-          >
-            <option value="">
-              Select a Service you're interested in
-            </option>
+                <input
+                  type="tel"
+                  name="phone"
+                  value={isQuote.phone}
+                  onChange={handleChange}
+                  placeholder="Phone"
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                />
+              </div>
 
-            <option value="Web Design & Development">
-              Web Design & Development
-            </option>
+              {/* Select Service */}
+              <div className="mb-6">
+                <p className="font-bold w-100 text-black">Select service:</p>
 
-            <option value="Digital Marketing">
-              Digital Marketing
-            </option>
+                <select
+                  name="selectService"
+                  value={isQuote.selectService}
+                  onChange={handleChange}
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                >
+                  <option value="">
+                    Select a Service you're interested in
+                  </option>
 
-            <option value="Web Support & Maintenance">
-              Web Support & Maintenance
-            </option>
+                  <option value="Web Design & Development">
+                    Web Design & Development
+                  </option>
 
-            <option value="Business Email">
-              Business Email
-            </option>
+                  <option value="Digital Marketing">
+                    Digital Marketing
+                  </option>
 
-            <option value="Hosting & Domain">
-              Hosting & Domain
-            </option>
+                  <option value="Web Support & Maintenance">
+                    Web Support & Maintenance
+                  </option>
 
-            <option value="Google Business Profile">
-              Google Business Profile
-            </option>
-          </select>
+                  <option value="Business Email">
+                    Business Email
+                  </option>
 
-          {/* Comment */}
-          <p className="font-bold text-black">Comment:</p>
+                  <option value="Hosting & Domain">
+                    Hosting & Domain
+                  </option>
 
-          <textarea
-            name="comment"
-            value={isQuote.comment}
-            onChange={handleChange}
-            placeholder="Describe what you need. Your goals and specific requirements."
-            className="border-2 rounded-2xl h-30 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
-          />
+                  <option value="Google Business Profile">
+                    Google Business Profile
+                  </option>
+                </select>
+              </div>
 
-          {/* Budget */}
-          <p className="font-bold text-black">Budget:</p>
+              {/* Comment */}
+              <div className="mb-6">
+                <p className="font-bold text-black">Comment:</p>
 
-          <input
-            type="text"
-            name="budget"
-            value={isQuote.budget}
-            onChange={handleChange}
-            placeholder="Estimated budget"
-            className="border-2 border-gray-400 text-gray-500 px-4 py-2 md:w-150 w-88 mb-7"
-          />
+                <textarea
+                  name="comment"
+                  value={isQuote.comment}
+                  onChange={handleChange}
+                  placeholder="Describe what you need. Your goals and specific requirements."
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                />
+              </div>
 
-          {/* Submit */}
-          <button
-            type="submit"
-            className="mt-10 mb-30 cursor-pointer text-white p-5 px-20 md:w-150 w-90 rounded-full bg-amber-600"
-          >
-            Submit your quote request
-          </button>
-        </form>
-      </div>
+              {/* Budget */}
+              <div className="mb-6">
+                <p className="font-bold text-black">Budget:</p>
 
+                <input
+                  type="text"
+                  name="budget"
+                  value={isQuote.budget}
+                  onChange={handleChange}
+                  placeholder="Estimated budget"
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                />
+              </div>
+
+              {/* Submit */}
+              <div className="mb-6">
+                <button
+                  type="submit"
+                  className="mt-10 mb-30 cursor-pointer text-white p-5 px-10 md:w-100 w-85 text-xl font-black rounded-full bg-amber-600"
+                >
+                  Submit your quote request
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
       <Footer />
       <FooterNote />
     </div>

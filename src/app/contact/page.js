@@ -148,7 +148,7 @@ const Page = () => {
                   value={isContact.phone}
                   onChange={handleChange}
                   placeholder="Phone"
-                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                  className="w-full border-2 text-gray-500 border-gray-400 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
                 />
               </div>
 
