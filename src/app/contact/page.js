@@ -91,7 +91,7 @@ const Page = () => {
 
       {/* Page Heading */}
       <section className="px-5 sm:px-8 md:px-12 lg:px-20 xl:px-30">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold my-8 md:my-0">
+        <h1 className="text-3xl text-black sm:text-4xl md:text-5xl font-bold my-8 md:my-0">
           Tell Us About Your Request
         </h1>
       </section>
@@ -106,7 +106,7 @@ const Page = () => {
 
               {/* Full Name */}
               <div className="mb-6">
-                <p className="font-bold mb-2">
+                <p className="font-bold mb-2 text-black">
                   Full Name:
                 </p>
 
@@ -116,13 +116,13 @@ const Page = () => {
                   value={isContact.fullName}
                   onChange={handleChange}
                   placeholder="Full Name"
-                  className="w-full border-2 border-gray-400 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
                 />
               </div>
 
               {/* Email */}
               <div className="mb-6">
-                <p className="font-bold mb-2">
+                <p className="font-bold mb-2 text-black">
                   Email:
                 </p>
 
@@ -132,13 +132,13 @@ const Page = () => {
                   value={isContact.email}
                   onChange={handleChange}
                   placeholder="email@gmail.com"
-                  className="w-full border-2 border-gray-400 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
                 />
               </div>
 
               {/* Phone */}
               <div className="mb-6">
-                <p className="font-bold mb-2">
+                <p className="font-bold mb-2 text-black">
                   Phone:
                 </p>
 
@@ -148,13 +148,13 @@ const Page = () => {
                   value={isContact.phone}
                   onChange={handleChange}
                   placeholder="Phone"
-                  className="w-full border-2 border-gray-400 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
+                  className="w-full border-2 border-gray-400 text-gray-500 px-4 py-3 rounded-lg outline-none focus:border-purple-600 transition"
                 />
               </div>
 
               {/* Comment */}
               <div className="mb-6">
-                <p className="font-bold mb-2">
+                <p className="font-bold mb-2 text-black">
                   Comment:
                 </p>
 
@@ -164,7 +164,7 @@ const Page = () => {
                   onChange={handleChange}
                   placeholder="Send our support team a message."
                   rows={6}
-                  className="w-full border-2 border-gray-400 rounded-2xl px-4 py-3 outline-none resize-none focus:border-purple-600 transition"
+                  className="w-full border-2 border-gray-400 text-gray-500 rounded-2xl px-4 py-3 outline-none resize-none focus:border-purple-600 transition"
                 />
               </div>
 

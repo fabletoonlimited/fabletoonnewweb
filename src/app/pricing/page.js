@@ -20,7 +20,7 @@ const page = () => {
           <FontAwesomeIcon icon={faBuilding} className='text-amber-600 w-5 md:text-2xl text-md mr-2' />
           <div>
             <p className='font-bold text-black'>Need a custom solution?</p>
-            <p>Have a unique project or need additional services? Let's talk about 
+            <p className='text-black'>Have a unique project or need additional services? Let's talk about 
             what you need and create a plan that works for you.
             </p>
           </div>
