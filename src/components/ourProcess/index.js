@@ -12,7 +12,7 @@ const index = () => {
         <FontAwesomeIcon 
         icon={faBookBookmark} className='text-3xl text-amber-500 text-md mr-2 mb-2' />
         <h2 className='text-black font-black text-sm leading-5 mb-2'>We Learn About Your Business.</h2>
-        <p className='md:text-sm text-gray-600'>We start by understanding your business, goals audience, and what you need online.
+        <p className='md:text-sm text-gray-600'>We start by understanding your business, goals, audience, and what you need online.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ const index = () => {
         <FontAwesomeIcon 
         icon={faCheckSquare} className='text-3xl text-amber-500 text-md mr-2 mb-2' />
         <h2 className='text-black font-black text-sm leading-5 mb-2'>Your Review and Approve</h2>
-        <p className='md:text-sm text-gray-600'>You get the opportunity to review the work and request adjustemnts before launch.
+        <p className='md:text-sm text-gray-600'>You get the opportunity to review the work and request adjustments before launch.
         </p>
       </div>
      
@@ -67,7 +67,7 @@ const index = () => {
         <FontAwesomeIcon 
         icon={faHeadset} className='text-3xl text-amber-500 text-md mr-2 mb-2' />
         <h2 className='text-black font-black text-sm leading-5 mb-2'>We Keep Supporting You</h2>
-        <p className='md:text-sm text-gray-600'>Need updates, maintennace, or technical help? We're here when you need us.
+        <p className='md:text-sm text-gray-600'>Need updates, maintenance, or technical help? We're here when you need us.
         </p>
       </div>
     </div>

@@ -34,7 +34,7 @@ const Index = () => {
                     <p className='text-sm md:text-base text-gray-800 font-medium max-w-xl leading-relaxed'>
                         Keep your website fast, secure and always online with our
                         reliable hosting and maintenance services. We handle the
-                        technical details so you can focus on running your busines.
+                        technical details so you can focus on running your business.
                     </p>
 
                     <div className='flex items-center gap-4 pt-2'>

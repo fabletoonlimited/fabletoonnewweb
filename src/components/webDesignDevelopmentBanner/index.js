@@ -16,7 +16,7 @@ const Index = () => {
     }, []);
 
     return (
-        <div className='w-full min-h-125 bg-linear-to-r from-white to-blue-200 relative overflow-hidden items-center justify-center md:pt-0 pt-30'> 
+        <div className='w-full min-h-125 bg-linear-to-r from-white to-blue-200 relative overflow-hidden items-center justify-center md:pt-0 pt-20'> 
             
             {/* Main structural wrapper using a 2-column layout on desktop */}
             <div className='max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-2 items-center gap-10 h-full'>

@@ -24,7 +24,7 @@ const Index = () => {
                 <div className='flex flex-col justify-center space-y-5 z-10'>
                     
                     <span className='text-amber-600 font-bold text-xs md:text-sm tracking-wider cursor-progress'>
-                        SEO & DIGIAL MARKETING
+                        SEO & DIGITAL MARKETING
                     </span>
 
                     <h1 className='text-3xl md:text-4xl font-black text-black leading-tight -mt-3'>

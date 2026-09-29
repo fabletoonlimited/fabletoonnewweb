@@ -33,7 +33,7 @@ const page = () => {
             professional websites, business email, reliable hosting,
             and ongoing support.
             
-            Fabletoon is a Lagos based digital solutions company focused
+            Fabletoon is a Lagos-based digital solutions company focused
             on helping businesses across Nigeria establish, improve, and 
             maintain their online presence.
 
@@ -65,7 +65,7 @@ const page = () => {
         <div className='p-20 md:-mt-25 -mt-25 mb-10'>
             <p className='font-black text-amber-600 text-sm'>OUR PROCESS</p>
             <h2 className='font-black text-black text-3xl'>Our Process</h2>
-            <p className='mb-6 text-black'>A simple clear process to get your business online and growing.</p>
+            <p className='mb-6 text-black'>A simple, clear process to get your business online and growing.</p>
           
           <OurProcess />
         </div>

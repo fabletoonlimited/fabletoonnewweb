@@ -13,7 +13,7 @@ const index = () => {
           src="/fabletoonlogo.png"  
           alt="logo" 
         />
-        <p className='md:pl-5 pl-0 md:mt-0 -mt-10 text-white mb-10'>Lagos based digital solution <br />for business accross Nigeria. </p>
+        <p className='md:pl-5 pl-0 md:mt-0 -mt-10 text-white mb-10'>Lagos-based digital solutions <br />for businesses across Nigeria. </p>
       </Link>
 
       <div className='Quick Links'>

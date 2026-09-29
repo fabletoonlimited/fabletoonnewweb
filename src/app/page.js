@@ -164,7 +164,7 @@ const page = () => {
       {/*Testimonials*/}
       <div className="md:flex col mb-30 w-screen gap-10 md:px-25 px-5 items-center justify-items-center">
         <div className="QuoteBox md:w-130 w-80 md:h-65 bg-gray-900 rounded-2xl items-center p-10 pt-15 mt-15">
-          <p className="text-white mb-8">Working with Fabletoon was a great experience. They understood our vision and delivered a website that perfectly represent our brand. The support has been incredible.
+          <p className="text-white mb-8">Working with Fabletoon was a great experience. They understood our vision and delivered a website that perfectly represents our brand. The support has been incredible.
           </p>
 
           <div className="flex gap-3">
@@ -179,9 +179,9 @@ const page = () => {
           </div>
         </div> 
 
-        <div className="w-auto h-auto md:px-6 px-12 py-10 border-gray-300 border-2 bg-white rounded-2xl md:mt-30 mt-10 md:flex col gap-10">
+        <div className="w-auto h-auto md:px-12 px-12 py-10 border-gray-300 border-2 bg-white rounded-2xl md:mt-30 mt-10 md:flex col gap-10">
           <span className="items-center md:mt-0 mt-0 py-10">
-            <p className="font-bold text-black text-md mb-3">Don't just build your website.<br />Let us take care of it.</p>
+            <p className="font-bold text-black text-md mb-3">Don't just build your website alone. Let us take care of it.</p>
               <p className="text-black">Take the stress out of your project <br />while our experts handle everything you need:</p>
                 
               <div className="flex mt-3">
@@ -213,10 +213,7 @@ const page = () => {
           <hr className="md:w-0.5 w-90 md:h-90 h-0.5 mb-10 bg-gray-300 border-0 justify-items-center items-center mt-10">
           </hr>
           
-          <span className="items-center md:mt-0 mt-0 py-10 w-auto">
-            <p className="font-bold text-black text-md mb-3">Don't just build your website.<br />Let us take care of it.</p>
-            <p className="text-black">Take the stress out of your project <br />while our experts handle everything you need:</p>
-                
+          <span className="items-center md:mt-0 mt-0 py-10 w-auto"> 
             <div className="flex mt-3">
               <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
                 <p className="text-black">Website Design to advanced services</p>
@@ -235,8 +232,8 @@ const page = () => {
             </div>
 
             <Link href="/pricing">
-              <button className="mt-6 text-white p-5 px-20 rounded-full cursor-pointer bg-amber-600">
-                Starting at N800,0000/month
+              <button className="mt-6 text-white p-4 px-15 rounded-full cursor-pointer bg-amber-600">
+                Starting at N800,000/month
               </button>
             </Link>
           </span> 

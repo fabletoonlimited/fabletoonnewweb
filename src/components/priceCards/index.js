@@ -13,7 +13,7 @@ const index = () => {
         <FontAwesomeIcon 
         icon={faTable} className=' md:text-xl text-amber-500 text-md mr-2' />
         <h2 className='text-black font-black text-lg leading-5 mb-2'>Starter Website</h2>
-        <p className='md:text-sm text-gray-600 mb-5'>Perfect for small businesses and statups.</p>
+        <p className='md:text-sm text-gray-600 mb-5'>Perfect for small businesses and startups.</p>
         
         <h2 className='text-black font-black text-lg leading-5 mb-6'>N800,000 - N2,000,000</h2>
         
@@ -135,7 +135,7 @@ const index = () => {
 
         <div className='flex'>
           <FontAwesomeIcon icon={faCheck} className='text-emerald-500 w-5 md:text-lg text-md mr-2' />
-          <p className='text-black'>Business emaail support</p>
+          <p className='text-black'>Business email support</p>
         </div>
 
         <div className='flex'>

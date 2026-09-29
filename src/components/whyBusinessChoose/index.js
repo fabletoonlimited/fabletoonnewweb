@@ -23,7 +23,7 @@ const index = () => {
         <FontAwesomeIcon 
         icon={faBullseye} className='text-3xl text-amber-500 text-md mr-2 mb-2' />
         <h2 className='text-black font-black text-lg leading-5 mb-2'>Business-Focused</h2>
-        <p className='md:text-sm text-gray-600'>We don't just build websites.<br />We create tools that help your<br /> business attrat customers <br /> and grow.
+        <p className='md:text-sm text-gray-600'>We don't just build websites.<br />We create tools that help your<br /> business attract customers <br /> and grow.
         </p>
       </div>
       

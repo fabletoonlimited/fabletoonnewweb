@@ -32,20 +32,20 @@ const page = () => {
       <Nav />
       <GoogleBusinessBanner />
 
-      <div className="px-30 mt-30 mb-40">
-        <h2 className="font-black text-2xl mb-8">Our Service Includes</h2>
+      <div className="md:px-30 px-10 md:mt-30 mt-20 mb-40">
+        <h2 className="font-bold text-black text-2xl mb-8">Our Service Includes</h2>
         <div className="row space-y-10 mb-20">
           
           <div className="md:flex row gap-45 space-y-10">
             <div className="flex">
               <FontAwesomeIcon
                 icon={faUserCheck}
-                className=" md:text-xl text-amber-500 text-md mr-2"
+                className=" md:text-xl text-2xl text-amber-500 text-md mr-2"
               />
               <div>
-                <p className="font-black mb-2">Profile Setup & Verification</p>
+                <p className="font-bold text-black mb-2">Profile Setup & Verification</p>
                 <p className="w-60">
-                  Get your bsuiness verified on Google.
+                  Get your business verified on Google.
                 </p>
               </div>
             </div>
@@ -53,11 +53,11 @@ const page = () => {
             <div className="flex">
               <FontAwesomeIcon
                 icon={faStreetView}
-                className=" md:text-xl text-amber-500 text-md mr-2"
+                className=" md:text-xl text-2xl text-amber-500 text-md mr-2"
               />
               <div>
-                <p className="font-black mb-2">Reviews Management Guidance</p>
-                <p className="w-60">
+                <p className="font-bold text-black mb-2">Reviews Management Guidance</p>
+                <p className="w-60 text-black">
                   Get positive reviews.
                 </p>
               </div>
@@ -66,11 +66,11 @@ const page = () => {
             <div className="flex">
               <FontAwesomeIcon
                 icon={faInfoCircle}
-                className=" md:text-xl text-amber-500 text-md mr-2"
+                className=" md:text-xl text-2xl text-amber-500 text-md mr-2"
               />
               <div>
-                <p className="font-black mb-2">Business Information Optimization</p>
-                <p className="w-60">
+                <p className="font-bold text-black mb-2">Business Information Optimization</p>
+                <p className="w-60 text-black">
                   Add the right details and categories.
                 </p>
               </div>
@@ -81,11 +81,11 @@ const page = () => {
             <div className="flex">
               <FontAwesomeIcon
                 icon={faCloudUploadAlt}
-                className=" md:text-xl text-amber-500 text-md mr-2"
+                className=" md:text-xl text-2xl text-amber-500 text-md mr-2"
               />
               <div>
-                <p className="font-black mb-2">Regular Updates</p>
-                <p className="w-60">
+                <p className="font-bold text-black mb-2">Regular Updates</p>
+                <p className="w-60 text-black">
                   Keep your information current.
                 </p>
               </div>
@@ -94,11 +94,11 @@ const page = () => {
             <div className="flex">
               <FontAwesomeIcon
                 icon={faPhotoFilm}
-                className=" md:text-xl text-amber-500 text-md mr-2"
+                className=" md:text-xl text-2xl text-amber-500 text-md mr-2"
               />
               <div>
-                <p className="font-black mb-2">Photos & Media</p>
-                <p className="w-60">
+                <p className="font-bold text-black mb-2">Photos & Media</p>
+                <p className="w-60 text-black">
                   Showcase your products, services and location.
                 </p>
               </div>
@@ -107,11 +107,11 @@ const page = () => {
             <div className="flex">
               <FontAwesomeIcon
                 icon={faStar}
-                className=" md:text-xl text-amber-500 text-md mr-2"
+                className=" md:text-xl text-2xl text-amber-500 text-md mr-2"
               />
               <div>
-                <p className="font-black mb-2">Local SEO Support</p>
-                <p className="w-60">
+                <p className="font-bold text-black mb-2">Local SEO Support</p>
+                <p className="w-60 text-black">
                   Improve your local search ranking.
                 </p>
               </div>
@@ -119,8 +119,9 @@ const page = () => {
           </div>
         </div>
       </div>
+
       {/*Services Bottom Banner*/}
-      <div className='md:flex md:h-80 h-130 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-50 rounded-xl'>
+      <div className='md:flex md:h-80 shadow-2xl h-130 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-50 rounded-xl'>
         <FontAwesomeIcon
           icon={faLocationPinLock}
           className=" text-9xl text-amber-500 text-md flex justify-center items-center mt-15"
@@ -132,7 +133,7 @@ const page = () => {
              <button 
             type='button'
             onClick={handleSubmit}
-            className="mt-6 text-white p-5 px-20 rounded-4xl bg-amber-600 hover:bg-amber-400 cursor-pointer">
+            className="mt-6 text-white font-bold p-5 px-20 rounded-4xl bg-amber-600 hover:bg-amber-400 cursor-pointer">
               Get a Quote
             </button>
         </div>

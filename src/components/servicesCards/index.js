@@ -48,7 +48,7 @@ const index = () => {
         </h2>
         <p className='text-sm text-gray-600 mb-5'>Keep your website secure, updated and running smoothly.
         </p>
-        <Link href='/hosting&maintenance'>
+        <Link href='/hosting-maintenance'>
           <span className='flex gap-2 text-amber-500 hover:text-gray-500 mt-3 items-center'>
             <p>Learn more </p>
             <FontAwesomeIcon icon={faArrowRight} className=' md:text-md text-md mr-2' />
@@ -78,7 +78,7 @@ const index = () => {
         <FontAwesomeIcon icon={faBullhorn} className=' md:text-xl text-md text-amber-500 mr-2' />
         <h2 className='text-black font-black text-xl leading-5 mb-6'>Digital Marketing
         </h2>
-        <p className='text-sm text-gray-600 mb-2'>Grow your reach with SEO social media and online advertising.
+        <p className='text-sm text-gray-600 mb-2'>Grow your reach with SEO, social media, and online advertising.
         </p>
         <Link href='/digitalMarketing'>
           <span className='flex gap-2 text-amber-500 hover:text-gray-500 mt-3 items-center'>
