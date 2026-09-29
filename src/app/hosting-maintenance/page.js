@@ -130,7 +130,7 @@ const page = () => {
         />
         <div>
           <h4 className='font-bold text-bold text-black text-2xl mt-10'>Peace of mind 24/7</h4>
-            <p>We keep your website secure, fast and running smoothly.</p>
+            <p className="text-black">We keep your website secure, fast and running smoothly.</p>
       
             <button 
             type='button'

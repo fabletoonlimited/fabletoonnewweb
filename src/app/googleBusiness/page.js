@@ -44,7 +44,7 @@ const page = () => {
               />
               <div>
                 <p className="font-bold text-black mb-2">Profile Setup & Verification</p>
-                <p className="w-60">
+                <p className="w-60 text-black">
                   Get your business verified on Google.
                 </p>
               </div>
@@ -128,7 +128,7 @@ const page = () => {
         />
         <div>
           <h4 className='font-bold text-black mt-10'>Be visible. Be trusted. Get more customers.</h4>
-            <p>Let's set up and optimize your Google Business Profile today.</p>
+            <p className="text-black">Let's set up and optimize your Google Business Profile today.</p>
       
              <button 
             type='button'

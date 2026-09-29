@@ -128,7 +128,7 @@ const page = () => {
       />
         <div>
           <h4 className='font-bold text-black text-2xl mt-10'>Not sure which service is right for you?</h4>
-            <p>Book a free consultation and we'll recommend the best solutions for your business needs.</p>
+            <p className="text-black">Book a free consultation and we'll recommend the best solutions for your business needs.</p>
       
             <button 
             type='button'

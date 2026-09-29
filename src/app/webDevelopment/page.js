@@ -19,6 +19,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const page = () => {
+  const router = useRouter();
+  
   const handleSubmit = () => { 
       toast.success("Hold on!!")
         setTimeout(() => {
