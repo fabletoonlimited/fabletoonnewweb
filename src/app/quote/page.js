@@ -152,7 +152,7 @@ const Page = () => {
 
               {/* Phone */}
               <div className="mb-6">
-                <p className="font-bold text black">Phone:</p>
+                <p className="font-bold text-black">Phone:</p>
 
                 <input
                   type="tel"
