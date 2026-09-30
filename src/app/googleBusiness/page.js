@@ -20,6 +20,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const page = () => {
+  const router = useRouter();
+  
   const handleSubmit = () => { 
       toast.success("Hold on!!")
         setTimeout(() => {
@@ -28,7 +30,7 @@ const page = () => {
       };
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-white">
       <Nav />
       <GoogleBusinessBanner />
 
@@ -121,7 +123,7 @@ const page = () => {
       </div>
 
       {/*Services Bottom Banner*/}
-      <div className='md:flex md:h-80 shadow-2xl h-130 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-50 rounded-xl'>
+      <div className='md:flex md:h-80 shadow-2xl border-2 border-white h-130 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-50 rounded-xl'>
         <FontAwesomeIcon
           icon={faLocationPinLock}
           className=" text-9xl text-amber-500 text-md flex justify-center items-center mt-15"

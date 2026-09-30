@@ -20,6 +20,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const page = () => {
+  const router = useRouter();
+
   const handleSubmit = () => { 
       toast.success("Hold on!!")
         setTimeout(() => {
@@ -28,7 +30,7 @@ const page = () => {
       };
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-white">
       <Nav />
       <BusinessEmail />
 
@@ -121,7 +123,7 @@ const page = () => {
       </div>
 
       {/*Services Bottom Banner*/}
-      <div className='md:flex md:h-80 h-130 md:pt-12 pt-0 shadow-2xl block md:mx-17 mx-6 md:px-10 px-10 md:w-300 w-auto bg-white gap-60 mb-50 rounded-xl'>
+      <div className='md:flex md:h-80 h-130 border-2 border-white md:pt-12 pt-0 shadow-2xl block md:mx-17 mx-6 md:px-10 px-10 md:w-300 w-auto bg-white gap-60 mb-50 rounded-xl'>
         <FontAwesomeIcon
           icon={faEnvelope}
           className=" text-9xl text-amber-500 text-md flex justify-center items-center mt-15"

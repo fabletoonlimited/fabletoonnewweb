@@ -9,14 +9,14 @@ const index = () => {
       
       <Link href='/'>
         <img 
-          className='footer-logo md:w-85 w-65 md:-mt-10 -mt-10 md:mb-0 mb-5 md:pl-8 pl-0 -md:ml-18 -ml-18'
-          src="/fabletoonlogo.png"  
+          className='footer-logo md:w-85 w-65 md:-mt-10 -mt-10 md:mb-2 mb-0 md:pl-8 pl-0 md:ml-1 -ml-18'
+          src="/FL_Logo_white.png"  
           alt="logo" 
         />
-        <p className='md:pl-5 pl-0 md:mt-0 -mt-10 text-white mb-10'>Lagos-based digital solutions <br />for businesses across Nigeria. </p>
+        <p className='md:pl-5 pl-10 md:mt-2 mt-2 md:ml-15 -ml-18 text-white mb-10'>Lagos-based digital solutions <br />for businesses across Nigeria. </p>
       </Link>
 
-      <div className='Quick Links'>
+      <div className='Quick Links md:ml-0 -ml-8'>
         <h6 className='text-white font-black mb-2'>Quick Links</h6>
         <ul>
           <span className='text-white hover:text-blue-300 cursor-pointer'>
@@ -40,7 +40,7 @@ const index = () => {
         </ul>
       </div>
 
-      <div className='Services'>
+      <div className='Services md:ml-0 -ml-8'>
         <h6 className='text-white font-black mb-2'>Our Services</h6>
         <ul>
           <span className='text-white cursor-pointer'><li>Website Design & Development</li></span>
@@ -52,7 +52,7 @@ const index = () => {
         </ul>
       </div>
 
-      <div className='Contact'>
+      <div className='Contact md:ml-0 -ml-8'>
         <h6 className='text-white font-black mb-2'>Contact Us</h6>
         <ul>
           <span className='text-white cursor-pointer'><li>+234 703 733 0597</li></span>

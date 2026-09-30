@@ -29,7 +29,7 @@ const page = () => {
       };
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-white">
       <Nav />
       <WebDesignDevelopmentBanner />
 
@@ -122,7 +122,7 @@ const page = () => {
       </div>
       
       {/*WebDesign Bottom Banner*/}
-      <div className='md:flex md:h-80 h-130 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white gap-60 mb-50 rounded-xl'>
+      <div className='md:flex md:h-80 h-130 block md:mx-25 mx-6 md:px-10 px-10 p-10 md:w-300 w-auto bg-white border-2 border-white gap-60 mb-50 rounded-xl'>
         <img src="/laptop.png" 
         className='md:flex row md:h-100 md:-mt-20 -mt-20'/>
         <div>

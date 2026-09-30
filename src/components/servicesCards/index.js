@@ -8,7 +8,7 @@ const index = () => {
     <div className='md:flex row py-3 md:gap-8 gap-0 md:space-y-0 space-y-10 md:overflow-hidden'>
       
       {/* Box 1*/}
-      <div className='md:border-2 bg-white border-gray-100 px-5 py-5 rounded-xl w-80 md:w-100 ml-0 shadow-lg animate-none hover:scale-105'>
+      <div className='border-2 bg-white border-gray-100 px-5 py-5 rounded-xl w-80 md:w-100 ml-0 shadow-lg animate-none hover:scale-105'>
         
         <FontAwesomeIcon 
         icon={faDesktop} className=' md:text-xl text-amber-500 text-md mr-2' />

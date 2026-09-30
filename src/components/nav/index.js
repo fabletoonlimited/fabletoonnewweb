@@ -38,10 +38,10 @@ const closeMenu = () => {
       {/* Logo */}
       
       <Link href="/" onClick={closeMenu}>
-        <div className="nav-logo w-60 h-30 flex items-center justify-center md:ml-0 -ml-20">
+        <div className="nav-logo w-60 h-30 flex items-center justify-center md:ml-0 -ml-15">
           <ToastContainer />
           <img
-            src="/fabletoonlogo.png"
+            src="/FL_Logo_BlackTxt.png"
             alt="Fabletoon Logo"
             className="max-w-full max-h-full object-contain"
           />
