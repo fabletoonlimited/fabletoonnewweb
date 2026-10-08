@@ -1,15 +1,13 @@
 "use client"
 
 import React from 'react'
-import { useRouter } from "next/navigation";
 import { useState, useEffect } from 'react';
 import {Lottie} from "lottie-react";
 import "./banner.scss"
-import PriceCards from "@/components/priceCards"
+
 
 
 const index = () => {
-    const router = useRouter();
     const [animationData, setAnimationData] = useState(null);
 
     useEffect(() => {
@@ -44,11 +42,7 @@ return (
                 </p>
             </div>  
         </div>
-        
-        {/* prices */}
-        <div className='md:p-25 md:pr-75 pr-33 md:-mt-35 mt-10 items-center justify-items-center mb-20'>
-            <PriceCards />
-        </div>
+   
     </div>
   ) 
 }

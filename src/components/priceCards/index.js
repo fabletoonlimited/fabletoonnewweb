@@ -8,7 +8,7 @@ const index = () => {
     <div className='md:flex justify-items-center items-center row py-3 md:gap-20 gap-0 md:space-y-0 space-y-10 md:overflow-hidden ml-35'>
       
       {/* Box 1*/}
-      <div className='border-2 bg-white border-gray-100 px-7 py-10 rounded-xl max-w-100 md:max-w-auto shadow-xl animate-none hover:scale-105'>
+      <div className='border-2 bg-white border-gray-100 px-7 py-10 rounded-xl w-80 md:w-100 shadow-xl animate-none hover:scale-105'>
         
         <FontAwesomeIcon 
         icon={faTable} className=' md:text-xl text-amber-500 text-md mr-2' />
@@ -56,7 +56,7 @@ const index = () => {
       </div>
 
       {/* Box 2*/}
-      <div className='relative border-2 bg-white border-gray-100 px-7 py-10 rounded-xl max-w-100 md:max-w-100 shadow-xl animate-none hover:scale-105'>
+      <div className='relative border-2 bg-white border-gray-100 px-7 py-10 rounded-xl w-80 md:w-100 shadow-xl animate-none hover:scale-105'>
           
         {/* Using negative positioning to break past padding and cover the 2px border */}
         <span className='absolute -top-0.5 -right-0.5 bg-amber-500 w-24 h-10 flex justify-center items-center rounded-bl-lg rounded-tr-xl font-black'>
@@ -109,7 +109,7 @@ const index = () => {
       </div>
 
       {/* Box 3*/}
-      <div className='border-2 bg-white border-gray-100 px-7 py-10 rounded-xl max-w-100 md:max-w-auto shadow-xl animate-none hover:scale-105'>
+      <div className='border-2 bg-white border-gray-100 px-7 py-10 rounded-xl w-80 md:w-100 shadow-xl animate-none hover:scale-105'>
         
         <FontAwesomeIcon 
         icon={faCloud} className=' md:text-xl text-amber-500 text-md mr-2' />

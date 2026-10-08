@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Nav from "@/components/nav"
 import Footer from '@/components/footer'
@@ -8,13 +9,24 @@ import PricingBanner from "@/components/pricingBanner"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuilding } from "@fortawesome/free-solid-svg-icons"
 import Link from 'next/link';
+import PriceCards from "@/components/priceCards"
+import { useRouter } from "next/navigation";
+
 
 const page = () => {
+      const router = useRouter();
+  
   return (
+    
     <div className='w-screen h-auto bg-gray-100'>
         <ToastContainer />
         <Nav />
         <PricingBanner />
+    
+        {/* prices */}
+        <div className='md:p-25 md:pr-75 pr-33 md:-mt-10 mt-10 items-center justify-items-center mb-20'>
+            <PriceCards />
+        </div>
 
         <div className='bg-amber-50 md:gap-10 gap-5 md:flex row h-auto md:p-20 p-10 shadow-2xl md:w-250 w-80 md:ml-45 ml-10 mb-40 rounded-xl items-center justify-items-center'>
           <FontAwesomeIcon icon={faBuilding} className='text-amber-600 w-5 md:text-2xl text-md mr-2' />
