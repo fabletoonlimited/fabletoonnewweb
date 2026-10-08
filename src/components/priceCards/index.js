@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const index = () => {
   return (
-    <div className='md:flex justify-items-center items-center row py-3 md:gap-20 gap-0 md:space-y-0 space-y-10 md:overflow-hidden ml-35'>
+    <div className='md:flex justify-items-center items-center row py-3 md:gap-20 gap-0 md:space-y-0 space-y-10 md:overflow-hidden'>
       
       {/* Box 1*/}
       <div className='border-2 bg-white border-gray-100 px-7 py-10 rounded-xl w-80 md:w-100 shadow-xl animate-none hover:scale-105'>
